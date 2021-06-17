@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us | hello.com</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" media="screen and (max-width:1170px)" href="phone2.css">
+    <script src="style.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <ul>
+            <li class="item">
+                <a href="index.html">Home</a>
+            </li>
+            <li class="item">
+                <a href="about.html">About us</a>
+            </li>
+            <li class="item">
+                <a href="#">Services</a>
+            </li>
+            <li class="item">
+                <a href="index.html#contact">Contact us</a>
+            </li>
+        </ul>
+        <div id="right">
+            <div id="username" class="p-primary2">Welcome User</div>
+            <button class="btn" onclick="document.getElementById('id01').style.display='block'">Login</button>
+            <div id="id01" class="modal">
+                <form name="meraform" class="modal-content animate" action="/action_page.php">
+                    <h1 class="h-primary">Login to continue</h1>
+                    <div class="container">
+                        <!-- <label for="uname"><b>Username</b></label> -->
+                        <input type="text" placeholder="Enter Username Email" name="uname" required>
+                        <!-- <label for="psw"><b>Password</b></label> -->
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                        <button type="submit" class="btn" onclick="return fun1();">Login</button>
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                            class="btn">Cancel</button>
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                </form>
+            </div>
+            <button class="btn" onclick="document.getElementById('id02').style.display='block'">Signup</button>
+            <div id="id02" class="modal">
+                <form name="meraform2" class="modal-content animate" action="/action_page.php">
+                    <h1 class="h-primary">Signup and become a member</h1>
+                    <h1 class="h-primary"></h1>
+                    <div class="container">
+                        <!-- <label for="uname"><b>Username</b></label> -->
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                        <!-- <label for="psw"><b>Password</b></label> -->
+                        <input type="email" placeholder="Enter Email ID" name="email" required>
+                        <input type="password" placeholder="Set Password" name="psw" required>
+                        <input type="password" placeholder="Confirm Password" name="psw" required>
+                        <button type="submit" class="btn" onclick="return fun();">Signup</button>
+                        <button type="button" onclick="document.getElementById('id02').style.display='none'"
+                            class="btn">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <section id="about" class="w3-animate-opacity">
+        <h1 class="h-primary">
+            Welcome to our about section.
+        </h1>
+        <p class="p-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sed repellendus corporis blanditiis fuga.
+            Odit quidem, corrupti et aspernatur nobis distinctio. Asperiores sapiente ipsum delectus officiis quia nam
+            laborum iste incidunt vel ex voluptas optio nobis neque distinctio maxime magni ducimus quidem at, eaque
+            quasi amet natus. Possimus, itaque hic.
+        </p>
+        <p class="p-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet placeat fugiat cupiditate sed id, quis ipsa
+            sit est accusamus eos illo culpa consequatur odio, labore rem a, quidem omnis non inventore nesciunt facilis
+            exercitationem blanditiis suscipit adipisci. Tempore ab non inventore optio velit maiores, ad ducimus
+            praesentium neque provident. Perspiciatis.
+        </p>
+    </section>
+
+    <section id="founder-section" class="w3-animate-opacity">
+        <h1 class="h-primary"> Our Founders</h1>
+        <div id="founders">
+            <div class="box2">
+                <img src="card1.png" alt="card1">
+                <h2 class="h-secondary"> Person A chairman </h2>
+                <p class="p-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas cumque
+                    libero fugiat
+                    reprehenderit explicabo blanditiis.</p>
+            </div>
+            <div class="box2">
+                <img src="card1.png" alt="card1">
+                <h2 class="h-secondary"> Person A chairman </h2>
+                <p class="p-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas cumque
+                    libero fugiat
+                    reprehenderit explicabo blanditiis.</p>
+            </div>
+            <div class="box2">
+                <img src="card1.png" alt="card1">
+                <h2 class="h-secondary"> Person A chairman </h2>
+                <p class="p-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas cumque
+                    libero fugiat
+                    reprehenderit explicabo blanditiis.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="foot" class="w3-animate-opacity">
+        <div>
+            Copyright &copy; of the Foodmart Private Limited. Email us at: &nbsp;&nbsp;pranjal.
+            glowingstar@gmail.com<br>
+            Server Time = <span id="time"></span>
+        </div>
+    </footer>
+</body>
+
+</html>

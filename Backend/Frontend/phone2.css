@@ -1,0 +1,60 @@
+#navbar{
+    flex-direction: column;
+}
+
+#right{
+    flex-direction: column;
+}
+
+#username{
+    display: none;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 8px;
+}
+#about{
+    height:280px;
+    padding: 3px 68px;
+}
+
+#about::before{
+    height: 370px;
+}
+
+#about p{
+    font-size: 13px;
+}
+
+#founder-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2{
+    height: 150px;
+    width: 200px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.box2 img{
+    width: 60px;
+    padding: 2px 2px;
+    height: auto;
+}
+
+.h-primary{
+    font-size: 1rem;
+}
+.p-primary{
+    font-size: 12px;
+}
+.btn{
+    font-size: 1rem;
+    padding: 2px;
+    margin: 2px;
+    border-radius: 4px;
+}
