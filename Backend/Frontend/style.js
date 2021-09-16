@@ -11,13 +11,13 @@ function signupchecker()
     let x=document.forms["meraform2"]["uname"].value;
     if(x == "")
     {
-        alert("naam sahi se likh. chutiya ho kya?");
+        alert("write name properly");
         return false;
     }
     x=document.forms["meraform2"]["email"].value;
     if(x.search("@") == -1)
     {
-        alert("mail sahi se likh. chutiya ho kya?");
+        alert("write email id properly");
         return false;
     }
 }
